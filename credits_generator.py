@@ -1,3 +1,20 @@
+# File generated (specified as "Output file name" when running
+# the program) will have to run along with a "scoreboard players
+# add frames cred_step 1", meaning you must have a controlling
+# function looking like:
+#
+# ----------------------------------------------------
+# ...
+# scoreboard players add frames cred_step 1
+# function my_generated_credits.mcfunction
+# ...
+# ----------------------------------------------------
+#
+# You can also add some sound effects on the controlling function,
+# so it would be like a typewriter. Also, the text color is green
+# by default, feel free to edit this file in lines 35, 38 and 40 to
+# adapt the commands to your needs.
+
 file_out = input("Output file name: ")
 file_in = input("Input text file: ")
 delay = int(input("Delay when text fully shown (in ticks): "))
